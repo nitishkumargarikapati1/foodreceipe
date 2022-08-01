@@ -1,0 +1,79 @@
+.App {
+  
+  background-color: rgb(207, 207, 58);
+  text-align: center;
+  background-repeat: no-repeat;
+}
+.foodrecipe{
+  display: block;
+    height: -1rem;
+    width: 100%;
+    background-color: rgb(196, 133, 96);
+    color: black;
+    /* padding: 3%; */
+    
+    /* padding: 2%; */
+    padding: 0% 0%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    
+ 
+}
+.form{
+  display:block;
+  padding:10%;
+
+}
+
+.input{
+  background-color:blanchedalmond;
+  padding:1% 1%;
+  margin:1% 0%;
+  color:black;
+  font-size: larger;
+  text-align: center;
+
+  border-radius:2%;
+}
+.button{
+  background-color:blue;
+  padding:1%;
+  border:solid blue 2px;
+  border-radius:2%;
+  margin:2%;
+}
+.button:hover{
+  background-color:blueviolet;
+
+
+}
+.input:hover{
+ background-color: aliceblue;
+
+}
+.image{
+  background-image: url("food.jpg");
+  background-repeat: inherit;
+  background-size: cover;
+}
+.products{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+
+
+}
+.product{
+  display:flex;
+  flex-direction:column;
+  background-color: rgb(231, 231, 114);
+  box-shadow: chartreuse 4px;
+  border:solid aliceblue 2px; 
+  margin:2%;
+  width:21rem;
+  height:auto;
+  border-radius: 5rem;
+  
+}
+
